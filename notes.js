@@ -45,11 +45,11 @@ createNote(note4);
 for (const note of notes) {
     // if (note.subject === "CSS") {
     console.log(
-    `Note ${note.id}
-    Subject: ${note.subject}
-    Date(s): ${note.date}
-    ----------
-    Time Spent: ${note.timeSpent}
-    Feelings: ${note.feeling}`);
+`Note ${note.id}
+Subject: ${note.subject}
+Date(s): ${note.date}
+Time Spent: ${note.timeSpent}
+Feelings: ${note.feeling}
+------------------------`);
     // }
 }
